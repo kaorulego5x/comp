@@ -1,34 +1,11 @@
 {
   "files.associations": {
-    "__bit_reference": "cpp",
-    "__hash_table": "cpp",
-    "__split_buffer": "cpp",
-    "array": "cpp",
-    "deque": "cpp",
-    "initializer_list": "cpp",
-    "string": "cpp",
-    "string_view": "cpp",
-    "unordered_map": "cpp",
-    "vector": "cpp",
-    "iterator": "cpp",
-    "algorithm": "cpp",
     "ostream": "cpp",
     "iostream": "cpp",
-    "__tree": "cpp",
-    "filesystem": "cpp",
-    "forward_list": "cpp",
+    "__split_buffer": "cpp",
+    "deque": "cpp",
     "list": "cpp",
-    "map": "cpp",
-    "regex": "cpp",
-    "set": "cpp",
-    "span": "cpp",
-    "unordered_set": "cpp",
-    "valarray": "cpp",
-    "ranges": "cpp",
-    "stacktrace": "cpp",
-    "random": "cpp",
-    "memory": "cpp",
-    "utility": "cpp",
-    "__node_handle": "cpp"
+    "string": "cpp",
+    "vector": "cpp"
   }
 }
