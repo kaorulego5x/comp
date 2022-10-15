@@ -14,15 +14,18 @@ typedef long long ll;
 const int MOD = 1000000007;
 
 int main() {
-  int n,m;
-  cin>>n>>m;
-  vector<int> a;
-  for(int i=0;i<n;i++) a.push_back(0);
-  for(int i=0;i<m-n;i++) a.push_back(1);
-  do{
-    for(int i=0;i<m;i++){
-      if(a[i]==0) cout<<i+1<<" ";
+  map<string, int> M;
+  int N;
+  cin >> N;
+  rep(i, N) {
+    string S;
+    cin >> S;
+    if(M.find(S) == M.end()) {
+      M[S] = 1;
+      cout << S << endl;
+    } else {
+      cout << S + '(' + to_string(M[S]) + ')' << endl;
+      M[S] += 1;
     }
-    cout<<endl;
-  }while(next_permutation(a.begin(),a.end()));
+  }
 }

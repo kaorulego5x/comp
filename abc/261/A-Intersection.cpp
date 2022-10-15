@@ -14,15 +14,13 @@ typedef long long ll;
 const int MOD = 1000000007;
 
 int main() {
-  int n,m;
-  cin>>n>>m;
-  vector<int> a;
-  for(int i=0;i<n;i++) a.push_back(0);
-  for(int i=0;i<m-n;i++) a.push_back(1);
-  do{
-    for(int i=0;i<m;i++){
-      if(a[i]==0) cout<<i+1<<" ";
-    }
-    cout<<endl;
-  }while(next_permutation(a.begin(),a.end()));
+  int L1, R1, L2, R2;
+  cin >> L1 >> R1 >> L2 >> R2;
+  if(R1 <= L2 or R2 <= L1) {
+    cout << 0 << endl;
+  } else {
+    int low = max(L1, L2);
+    int high = max(R1, R2);
+    cout << (R1 - L1) + (R2 - L2) - (high-low) << endl;
+  }
 }

@@ -14,15 +14,19 @@ typedef long long ll;
 const int MOD = 1000000007;
 
 int main() {
-  int n,m;
-  cin>>n>>m;
-  vector<int> a;
-  for(int i=0;i<n;i++) a.push_back(0);
-  for(int i=0;i<m-n;i++) a.push_back(1);
-  do{
-    for(int i=0;i<m;i++){
-      if(a[i]==0) cout<<i+1<<" ";
-    }
-    cout<<endl;
-  }while(next_permutation(a.begin(),a.end()));
+  int N;
+  cin >> N;
+  ve<int> A(N);
+  ll res = 0;
+  int same = 0;
+  rep(i, N) {
+    cin >> A[i];
+    A[i] -= 1;
+    if(i == A[i]) same += 1;
+  }
+  rep(i, N) {
+    if(A[i] > i and i == A[A[i]]) res += 1;
+  } 
+  res += (ll)same * (same - 1) / 2;
+  cout << res << endl;
 }
