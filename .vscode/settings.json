@@ -23,7 +23,8 @@
     "locale": "cpp",
     "map": "cpp",
     "memory": "cpp",
-    "cwchar": "cpp"
+    "cwchar": "cpp",
+    "cmath": "cpp"
   },
   "C_Cpp.errorSquiggles": "Enabled",
   "C_Cpp.default.includePath": ["/Users/kaorulego5x/dev/ac-library"]
