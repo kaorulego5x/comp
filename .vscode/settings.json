@@ -8,7 +8,22 @@
     "string": "cpp",
     "vector": "cpp",
     "random": "cpp",
-    "modint": "cpp"
+    "modint": "cpp",
+    "algorithm": "cpp",
+    "bitset": "cpp",
+    "complex": "cpp",
+    "exception": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp",
+    "fstream": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "locale": "cpp",
+    "map": "cpp",
+    "memory": "cpp",
+    "cwchar": "cpp"
   },
   "C_Cpp.errorSquiggles": "Enabled",
   "C_Cpp.default.includePath": ["/Users/kaorulego5x/dev/ac-library"]
