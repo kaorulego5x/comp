@@ -7,7 +7,9 @@
     "list": "cpp",
     "string": "cpp",
     "vector": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "modint": "cpp"
   },
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Enabled",
+  "C_Cpp.default.includePath": ["/Users/kaorulego5x/dev/ac-library"]
 }
